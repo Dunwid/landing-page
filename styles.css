@@ -3,7 +3,7 @@
     border: solid 1px red;
 }
 body{
-    padding-bottom: 500px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,6 +34,7 @@ a{
 
 .info-one{
     display: flex;
+    margin: 15px;
 }
 .left-section, .main-text{
     padding: 16px;
@@ -42,8 +43,8 @@ a{
     order: 1;
 }
 .main-image{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
     order: 1;
 }
 .banner{
@@ -52,6 +53,7 @@ a{
 }
 .main-text{
     min-width: 500px;
+
 }
 
 .info-two h2{
@@ -71,4 +73,43 @@ a{
     object-fit: cover;
     width: 200px;
     height: 200px;  
+}
+
+.info-three{
+    padding: 100px;
+}
+.quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-three p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 32px;
+    font-style: italic;
+}
+.author{
+    align-self: flex-end;
+    margin-right: 10%;
+}
+.info-three h3{
+    margin: 0;
+    padding: 0;
+}
+
+.info-four{
+    padding: 100px;
+}
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
