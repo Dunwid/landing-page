@@ -16,7 +16,7 @@ a{
 }
 .main{
     background: rgb(251,199,141);
-    background: linear-gradient(0deg, rgba(251,199,141,1) 35%, rgba(249,226,174,1) 100%);
+    background-image: linear-gradient(to top, #f9e2ae, #f9dda7, #f9d8a0, #fad39a, #face94, #face94, #face94, #face94, #fad39a, #f9d8a0, #f9dda7, #f9e2ae);
 }
 
 .header{
@@ -106,7 +106,9 @@ button:hover{
     height: 200px;  
 }
 
-
+.two-three{
+    background-image: linear-gradient(0deg, #A8DEE0, #FFFFFF);
+}
 .info-three{
     padding: 100px;
 }
@@ -132,16 +134,37 @@ button:hover{
 }
 
 .info-four{
-    padding: 100px;
+    padding: 30px;
 }
 .action{
+    background-color: #85cbcc;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 4px;
+    padding: 20px 10px;
+    margin: 0 70px;
+}
+.action p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.action .bolder-text{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.action button{
+    border: 2px solid white;
 }
 
 .footer{
     display:flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    font-size: 12px;
+    background: linear-gradient(0deg, rgba(251,199,141,1) 35%, rgba(249,226,174,1) 100%);
+    
 }
