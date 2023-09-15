@@ -1,18 +1,24 @@
 *{
     box-sizing: border-box;
-    border: solid 1px red;
+    margin: 0;
+    
 }
 body{
-
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 a{
     text-decoration: none;
     color: black;
+    font-size: 18px;
 }
+.main{
+    background: rgb(251,199,141);
+    background: linear-gradient(0deg, rgba(251,199,141,1) 35%, rgba(249,226,174,1) 100%);
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -28,8 +34,7 @@ a{
 }
 .tab{
     display: flex;
-    gap: 16px;
-   
+    gap: 16px;   
 }
 
 .info-one{
@@ -41,6 +46,20 @@ a{
 }
 .left-section{
     order: 1;
+   
+}
+button{
+    margin-top: 15px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    background-color: #85cbcc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+button:hover{
+    cursor: pointer;
 }
 .main-image{
     height: 300px;
@@ -53,27 +72,40 @@ a{
 }
 .main-text{
     min-width: 500px;
-
+    text-align: justify;
+    text-justify: inter-word;
+}
+.main-text p{
+    text-indent: 32px;
 }
 
 .info-two h2{
     text-align: center;
+    padding-top: 20px;
 }
 .container{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     gap: 16px;
+    padding: 20px;
     
 }
 .info{
     max-width: 200px;
+    text-align: justify;
+}
+.info p{
+    text-indent: 15px;
 }
 .info img{
+    border: 3px solid #85cbcc;
+    border-radius: 10px;
     object-fit: cover;
     width: 200px;
     height: 200px;  
 }
+
 
 .info-three{
     padding: 100px;
