@@ -37,9 +37,11 @@ a{
     gap: 16px;   
 }
 
+
 .info-one{
     display: flex;
-    margin: 15px;
+    justify-content: center;
+    align-items: center;
 }
 .left-section, .main-text{
     padding: 16px;
@@ -71,7 +73,7 @@ button:hover{
     max-height: 100%;
 }
 .main-text{
-    min-width: 500px;
+    flex-basis: 500px;
     text-align: justify;
     text-justify: inter-word;
 }
